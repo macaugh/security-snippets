@@ -9,6 +9,7 @@ Focused security-testing recipes indexed by category and technique. This reposit
 - [Claude Code security skill stack](agentic-security/claude-code/security-skill-stack.md)
 - [Building security CLIs with an NPX-first workflow](tool-development/cli/npx-security-tool-workflow.md)
 - [AI-assisted IDOR testing with captured HTTP traffic](web/authorization/idor/ai-assisted-testing.md)
+- [AI-assisted bug bounty workflow with Claude](agentic-security/claude-code/bug-bounty-claude-workflow.md)
 
 ## Organization
 
