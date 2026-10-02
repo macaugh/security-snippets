@@ -5,6 +5,10 @@ Focused security-testing recipes indexed by category and technique. This reposit
 ## Catalog
 
 - [JWT `alg:none` authentication bypass](web/authentication/jwt/alg-none-bypass.md)
+- [Claude Code security engineering workflow](agentic-security/claude-code/security-engineering-workflow.md)
+- [Claude Code security skill stack](agentic-security/claude-code/security-skill-stack.md)
+- [Building security CLIs with an NPX-first workflow](tool-development/cli/npx-security-tool-workflow.md)
+- [AI-assisted IDOR testing with captured HTTP traffic](web/authorization/idor/ai-assisted-testing.md)
 
 ## Organization
 
