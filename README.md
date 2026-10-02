@@ -9,3 +9,13 @@ Focused security-testing recipes indexed by category and technique. This reposit
 ## Organization
 
 Paths follow `<domain>/<category>/<technology>/<technique>.md`. Keep the most important search terms in the path, heading, and `Tags` line so RedAmon can select the right entry from its repository sitemap.
+
+## Entry Format
+
+Each recipe should explain when the technique applies, how to construct or execute it, which fields need target-specific changes, and how to confirm the result. Prefer portable commands and include the expected success condition so an automated agent can distinguish a verified finding from a failed probe.
+
+Suggested sections are `Applicability`, `Generate` or `Test`, `Send`, `Verify`, `Variants`, and `Report`. Add defensive caveats only when they clarify interpretation, such as common false positives or behavior that looks exploitable but is not.
+
+## RedAmon Usage
+
+Add this repository as an enabled Tradecraft Resource in RedAmon. When a hunting task reaches exploitation or post-exploitation, `tradecraft_lookup` can select a recipe by its path and title and retrieve the complete Markdown entry. Refresh the resource after new recipes are published so the repository sitemap contains their paths.
