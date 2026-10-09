@@ -11,6 +11,7 @@ Focused security-testing recipes indexed by category and technique. This reposit
 - [AI-assisted IDOR testing with captured HTTP traffic](web/authorization/idor/ai-assisted-testing.md)
 - [Web cache deception through cache/origin route confusion](web/cache/cache-deception/route-confusion-testing.md)
 - [Multi-layer auth bypass via gateway/parser differential](web/authentication/multi-layer/gateway-parser-differential-bypass.md)
+- [Anti-bot bypass via userscript injection and local IPC](web/anti-bot/userscript-ipc/browser-injection-automation.md)
 - [AI-assisted bug bounty workflow with Claude](agentic-security/claude-code/bug-bounty-claude-workflow.md)
 
 ## Organization
